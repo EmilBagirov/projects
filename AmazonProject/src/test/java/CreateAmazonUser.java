@@ -46,11 +46,6 @@ public class CreateAmazonUser {
         updatePayment("4532153940224328", "Qarea Texture");
     }
 
-    @Test
-    public void purchaseSubscription() {
-        goTo("https://www.amazon.com/dp/B06XFY3H37");
-        purchase();
-    }
 
     @AfterClass
     public static void tearDown() {
